@@ -1,0 +1,1 @@
+# cleanshot-x-macos
